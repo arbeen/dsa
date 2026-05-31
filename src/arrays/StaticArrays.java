@@ -1,3 +1,5 @@
+package arrays;
+
 public class StaticArrays{
 	public static int[] insertEnd(int[] arr, int length, int capacity, int n){
 		if(length<capacity){
