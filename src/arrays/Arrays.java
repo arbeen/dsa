@@ -6,10 +6,13 @@ public class Arrays{
 		sarr.insertEnd(1);
 		sarr.insertAtIndex(4, 4);
 		sarr.printArr();
-		int[] newArr = {1,2};
-		DynamicArrays darr = new DynamicArrays(newArr, 2);
-		darr.printArr();
+		DynamicArrays darr = new DynamicArrays();
+		darr.insertEnd(1);
+		darr.insertEnd(2);
 		darr.insertEnd(3);
+		darr.insertAtIndex(2, 99);
+		darr.printArr();
+		darr.removeAtIndex(1);
 		darr.printArr();
     }
 }
